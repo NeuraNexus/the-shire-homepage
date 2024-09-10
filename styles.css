@@ -1,0 +1,105 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 70%;
+    background: #606c38;
+}
+
+.hero {
+    background-image: url("images/shire.png");
+    background-size: cover;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Lugrasimo", cursive;
+}
+
+h1 {
+    width: 250px;
+    margin: 0 auto;
+    background-color: #4f772d;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+h2 {
+    width: 350px;
+    margin: 10px auto;
+    font-size: 17px;
+    background: #90a955;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.activities {
+    background-color: #dde5b6;
+    padding: 10px 0 50px 0;
+}
+
+.activities h3 {
+    margin: 30px auto 50px auto;
+    color: #132a13;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    justify-content: space-around;
+}
+
+.card {
+    width: 200px;
+    color: #132a13;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.content {
+    width: 100%;
+    height: 70%;
+    background-color: #ccd5ae;
+    padding: 50px 0 50px 0;
+}
+
+.guide {
+    font-family: "Lugrasimo", cursive;
+    width: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #90a955;
+    display: flex;
+    border-bottom: 5px solid #4f772d;
+    border-radius: 10px;
+    color: #132a13;
+}
+
+.guide:hover {
+    transform: scale(1.05);
+}
+
+.guide img {
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
